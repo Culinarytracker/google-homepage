@@ -10,6 +10,7 @@
     margin-left: 2px;
     align-items: center;
 
+
 }
 
 .right-buttons {
@@ -19,6 +20,7 @@
 
 .header-button{
     text-decoration: none;
+    color: rgb(0, 0, 0);
     padding-left: 10px;
 }
 

@@ -1,0 +1,14 @@
+#top-bar {
+    display: flex;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    
+}
+
+.header-button{
+    text-decoration: none;
+}
+
+.header-button:hover {
+    text-decoration: underline;
+}

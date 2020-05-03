@@ -98,8 +98,23 @@ margin-right: 15px;
     border-color: rgb(0, 0, 0, 0.15);
     border-radius: 20px;
     margin-top: 25px;
-    justify-content: center;
+    justify-content: space-between;    
+    align-items: center;
+}
+
+#mag-icon{
+    width: 20px;
+    height: 20px;
+    padding-left: 15px;
+    padding-right: 10px;
+    opacity: 0.4;
+    flex-basis: 20px;
     
+}
+
+#inputer {
+    flex-grow: 1;
+    padding-right: 15px;
 }
 
 .search-bar:hover {

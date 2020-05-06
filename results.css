@@ -287,3 +287,41 @@ a:hover {
     line-height: 2;
     font-family: arial, sans-serif;
 }
+ .footer-container {
+     display: grid;
+     grid-template-columns: 160px 1fr;
+     grid-template-rows: 1fr 1fr;
+     grid-template-areas: 
+     ". stuff"
+     ". footerlinks";
+    background-color: rgb(242, 242, 242);
+    height: 65px;
+    width: 100%;
+    margin-top: 20px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: rgb(228, 228, 228)
+ }
+ #location {
+     grid-area: stuff;
+     color: rgb(95, 99, 104);
+    font-family: arial, sans-serif;
+    font-size: 14px;
+ }
+ .bottom-loc {
+    grid-area: stuff;
+ }
+ .blue-exception {
+     color: black;
+ }
+ #final-line {
+     grid-area: footerlinks;
+     padding-left: 50px;
+     padding-bottom: 5px;
+ }
+ .footer-links {
+     padding-right: 4em;
+     color: black;
+     font-family: arial, sans-serif;
+     font-size: 14px;
+ }
